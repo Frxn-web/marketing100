@@ -1,885 +1,20 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las 100 Mejores Herramientas de Marketing Digital 2025 | Guía Completa</title>
-    <meta name="description" content="Descubre las 100 herramientas de marketing digital más efectivas para 2025. Desde SEO hasta redes sociales, encuentra todo lo que necesitas para hacer crecer tu negocio.">
-    <meta name="keywords" content="herramientas marketing digital, software marketing, herramientas SEO, marketing automation, social media tools">
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Header */
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            position: relative;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* Google Ads Header Banner */
-        .ad-banner-header {
-            background-color: #f0f0f0;
-            border: 2px dashed #ccc;
-            height: 90px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px 0;
-            color: #666;
-            font-size: 14px;
-        }
-
-        /* Navigation */
-        .nav-container {
-            background: white;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
-        }
-
-        .nav-categories {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .nav-categories a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-        }
-
-        .nav-categories a:hover {
-            background: #667eea;
-            color: white;
-        }
-
-        .search-box {
-            position: relative;
-        }
-
-        .search-box input {
-            padding: 0.5rem 1rem;
-            border: 2px solid #ddd;
-            border-radius: 25px;
-            width: 250px;
-            font-size: 14px;
-        }
-
-        .search-box input:focus {
-            outline: none;
-            border-color: #667eea;
-        }
-
-        /* Main Content Layout */
-        .main-content {
-            display: grid;
-            grid-template-columns: 1fr 300px;
-            gap: 2rem;
-            padding: 2rem 0;
-        }
-
-        .content {
-            background: white;
-            border-radius: 10px;
-            padding: 2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-        }
-
-        /* Sidebar */
-        .sidebar {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        /* Sticky Ad */
-        .ad-sidebar-sticky {
-            background-color: #f0f0f0;
-            border: 2px dashed #ccc;
-            height: 600px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #666;
-            font-size: 14px;
-            position: sticky;
-            top: 100px;
-            border-radius: 10px;
-        }
-
-        /* Table of Contents */
-        .toc {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            position: sticky;
-            top: 120px;
-        }
-
-        .toc h3 {
-            color: #667eea;
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-        }
-
-        .toc ul {
-            list-style: none;
-        }
-
-        .toc li {
-            margin-bottom: 0.5rem;
-        }
-
-        .toc a {
-            text-decoration: none;
-            color: #333;
-            font-size: 0.9rem;
-            display: block;
-            padding: 0.3rem 0;
-            border-left: 3px solid transparent;
-            padding-left: 0.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .toc a:hover {
-            color: #667eea;
-            border-left-color: #667eea;
-        }
-
-        /* Introduction */
-        .intro {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            padding: 2rem;
-            border-radius: 15px;
-            margin-bottom: 3rem;
-            text-align: center;
-        }
-
-        .intro h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .intro p {
-            font-size: 1.1rem;
-            opacity: 0.95;
-        }
-
-        /* Category Sections */
-        .category-section {
-            margin-bottom: 4rem;
-            scroll-margin-top: 120px;
-        }
-
-        .category-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-
-        .category-header h2 {
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .category-header p {
-            opacity: 0.9;
-        }
-
-        /* Tool Cards */
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .tool-card {
-            background: white;
-            border-radius: 15px;
-            padding: 1.5rem;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 1px solid #f0f0f0;
-        }
-
-        .tool-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-        }
-
-        .tool-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 1rem;
-        }
-
-        .tool-name {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #333;
-            margin-bottom: 0.3rem;
-        }
-
-        .tool-price {
-            background: #667eea;
-            color: white;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-
-        .tool-description {
-            color: #666;
-            margin-bottom: 1rem;
-            font-style: italic;
-        }
-
-        .tool-features {
-            margin-bottom: 1rem;
-        }
-
-        .tool-features h4 {
-            color: #333;
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        .tool-features ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .tool-features li {
-            padding: 0.2rem 0;
-            color: #555;
-            font-size: 0.9rem;
-        }
-
-        .tool-features li:before {
-            content: "✓ ";
-            color: #28a745;
-            font-weight: bold;
-        }
-
-        .tool-features.cons li:before {
-            content: "✗ ";
-            color: #dc3545;
-        }
-
-        .tool-link {
-            display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-decoration: none;
-            padding: 0.6rem 1.5rem;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            margin-top: 1rem;
-        }
-
-        .tool-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
-        }
-
-        /* In-content Ads */
-        .ad-in-content {
-            background-color: #f8f9fa;
-            border: 2px dashed #dee2e6;
-            height: 280px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 3rem 0;
-            color: #6c757d;
-            font-size: 14px;
-            border-radius: 10px;
-        }
-
-        /* Back to Top Button */
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            background: #667eea;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            transition: all 0.3s ease;
-            opacity: 0;
-            visibility: hidden;
-        }
-
-        .back-to-top.visible {
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .back-to-top:hover {
-            background: #5a6fd8;
-            transform: translateY(-3px);
-        }
-
-        /* Footer */
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 3rem 0;
-            margin-top: 4rem;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-section h3 {
-            color: #667eea;
-            margin-bottom: 1rem;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section a {
-            color: #ccc;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-section a:hover {
-            color: #667eea;
-        }
-
-        /* Newsletter */
-        .newsletter {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 2rem;
-            border-radius: 15px;
-            margin: 3rem 0;
-            text-align: center;
-            color: white;
-        }
-
-        .newsletter h3 {
-            margin-bottom: 1rem;
-        }
-
-        .newsletter-form {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            margin-top: 1rem;
-        }
-
-        .newsletter-form input {
-            padding: 0.8rem;
-            border: none;
-            border-radius: 25px;
-            flex: 1;
-            max-width: 300px;
-        }
-
-        .newsletter-form button {
-            background: white;
-            color: #667eea;
-            border: none;
-            padding: 0.8rem 2rem;
-            border-radius: 25px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .newsletter-form button:hover {
-            background: #f8f9fa;
-            transform: translateY(-2px);
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .main-content {
-                grid-template-columns: 1fr;
-            }
-            
-            .sidebar {
-                order: -1;
-            }
-            
-            .ad-sidebar-sticky {
-                position: static;
-                height: 250px;
-            }
-            
-            header h1 {
-                font-size: 1.8rem;
-            }
-            
-            .nav-categories {
-                display: none;
-            }
-            
-            .search-box input {
-                width: 200px;
-            }
-            
-            .tools-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .newsletter-form {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .newsletter-form input {
-                max-width: 100%;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                padding: 0 15px;
-            }
-            
-            header h1 {
-                font-size: 1.5rem;
-            }
-            
-            .content {
-                padding: 1rem;
-            }
-            
-            .search-box input {
-                width: 150px;
-            }
-        }
-
-        /* Loading Animation */
-        .loading {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 3px solid rgba(255,255,255,.3);
-            border-radius: 50%;
-            border-top-color: #fff;
-            animation: spin 1s ease-in-out infinite;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
-        /* Filter Buttons */
-        .filter-buttons {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .filter-btn {
-            background: white;
-            border: 2px solid #667eea;
-            color: #667eea;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-        }
-
-        .filter-btn.active,
-        .filter-btn:hover {
-            background: #667eea;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Las 100 Mejores Herramientas de Marketing Digital 2025</h1>
-            <p>La guía más completa y actualizada para emprendedores y marketers que buscan las mejores herramientas para hacer crecer su negocio</p>
-        </div>
-    </header>
-
-    <!-- Google Ads Header Banner -->
-    <div class="container">
-        <div class="ad-banner-header">
-            Google Ads - Header Banner (728x90)
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <div class="nav-container">
-        <div class="container">
-            <nav>
-                <div class="nav-categories">
-                    <a href="#seo">SEO</a>
-                    <a href="#social">Social Media</a>
-                    <a href="#email">Email</a>
-                    <a href="#analytics">Analytics</a>
-                    <a href="#automation">Automation</a>
-                    <a href="#ads">Publicidad</a>
-                    <a href="#productivity">Productividad</a>
-                    <a href="#ecommerce">E-commerce</a>
-                </div>
-                <div class="search-box">
-                    <input type="text" placeholder="Buscar herramienta..." id="searchInput">
-                </div>
-            </nav>
-        </div>
-    </div>
-
-    <!-- Main Content -->
-    <div class="container">
-        <div class="main-content">
-            <div class="content">
-                <!-- Introduction -->
-                <div class="intro">
-                    <h2>¿Por qué esta lista es diferente?</h2>
-                    <p>Hemos probado y analizado cientos de herramientas para traerte solo las que realmente funcionan. Cada herramienta está categorizada, con precios actualizados y casos de uso específicos para que encuentres exactamente lo que necesitas.</p>
-                </div>
-
-                <!-- Filter Buttons -->
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all">Todas</button>
-                    <button class="filter-btn" data-filter="free">Gratis</button>
-                    <button class="filter-btn" data-filter="premium">Premium</button>
-                    <button class="filter-btn" data-filter="freemium">Freemium</button>
-                </div>
-
-                <!-- SEO & Content Section -->
-                <section class="category-section" id="seo">
-                    <div class="category-header">
-                        <h2>🔍 SEO y Creación de Contenido</h2>
-                        <p>Herramientas esenciales para posicionar tu contenido y aparecer en los primeros resultados de Google</p>
-                    </div>
-
-                    <div class="tools-grid">
-                        <div class="tool-card" data-category="freemium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Ahrefs</div>
-                                    <div class="tool-description">La suite de SEO más completa del mercado</div>
-                                </div>
-                                <div class="tool-price">$99-999/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Análisis de competencia avanzado</li>
-                                    <li>Research de keywords profesional</li>
-                                    <li>Auditorías técnicas de SEO</li>
-                                    <li>Monitoreo de backlinks</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Precio elevado para principiantes</li>
-                                    <li>Curva de aprendizaje pronunciada</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Probar Ahrefs →</a>
-                        </div>
-
-                        <div class="tool-card" data-category="free">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Google Search Console</div>
-                                    <div class="tool-description">Herramienta oficial de Google para webmasters</div>
-                                </div>
-                                <div class="tool-price">Gratis</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Monitorear indexación de páginas</li>
-                                    <li>Detectar errores técnicos</li>
-                                    <li>Ver keywords que generan tráfico</li>
-                                    <li>Analizar Core Web Vitals</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Datos limitados a 16 meses</li>
-                                    <li>No muestra volumen de búsquedas</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Usar Gratis →</a>
-                        </div>
-
-                        <div class="tool-card" data-category="premium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Jasper AI</div>
-                                    <div class="tool-description">IA para creación de contenido optimizado</div>
-                                </div>
-                                <div class="tool-price">$49-125/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Escribir artículos de blog largos</li>
-                                    <li>Crear copy para ads y emails</li>
-                                    <li>Generar ideas de contenido</li>
-                                    <li>Optimizar textos para SEO</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Requiere edición humana</li>
-                                    <li>Limitado por créditos mensuales</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Probar Jasper →</a>
-                        </div>
-
-                        <div class="tool-card" data-category="freemium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Canva</div>
-                                    <div class="tool-description">Diseño visual para contenido de marketing</div>
-                                </div>
-                                <div class="tool-price">Gratis - $15/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Crear gráficos para redes sociales</li>
-                                    <li>Diseñar thumbnails para YouTube</li>
-                                    <li>Hacer infografías llamativas</li>
-                                    <li>Presentaciones profesionales</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Plantillas limitadas en versión gratuita</li>
-                                    <li>Marca de agua en algunos elementos</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Empezar Gratis →</a>
+<a href="#" class="tool-link">Probar ConvertKit →</a>
                         </div>
                     </div>
                 </section>
 
-                <!-- In-content Ad -->
-                <div class="ad-in-content">
-                    Google Ads - In-Content (728x90)
-                </div>
-
-                <!-- Social Media Section -->
-                <section class="category-section" id="social">
-                    <div class="category-header">
-                        <h2>📱 Gestión de Redes Sociales</h2>
-                        <p>Automatiza, programa y analiza tu presencia en redes sociales</p>
-                    </div>
-
-                    <div class="tools-grid">
-                        <div class="tool-card" data-category="freemium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Hootsuite</div>
-                                    <div class="tool-description">Plataforma todo-en-uno para redes sociales</div>
-                                </div>
-                                <div class="tool-price">$49-739/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Programar posts en múltiples redes</li>
-                                    <li>Gestionar equipos de social media</li>
-                                    <li>Monitorear menciones de marca</li>
-                                    <li>Reportes detallados de rendimiento</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Interfaz puede ser abrumadora</li>
-                                    <li>Precio elevado para equipos grandes</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Probar Hootsuite →</a>
-                        </div>
-
-                        <div class="tool-card" data-category="freemium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Buffer</div>
-                                    <div class="tool-description">Programación simple y efectiva</div>
-                                </div>
-                                <div class="tool-price">Gratis - $99/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Interfaz limpia y fácil de usar</li>
-                                    <li>Analytics claros y accionables</li>
-                                    <li>Programación masiva de contenido</li>
-                                    <li>Integración con herramientas populares</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Funciones limitadas en plan gratuito</li>
-                                    <li>No incluye monitoreo de menciones</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Empezar con Buffer →</a>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Newsletter Signup -->
-                <div class="newsletter">
-                    <h3>🚀 ¿Quieres recibir nuevas herramientas cada semana?</h3>
-                    <p>Únete a más de 10,000 marketers que reciben nuestra newsletter con las últimas herramientas y estrategias</p>
-                    <div class="newsletter-form">
-                        <input type="email" placeholder="Tu mejor email...">
-                        <button type="submit">Suscribirme Gratis</button>
-                    </div>
-                </div>
-
-                <!-- Email Marketing Section -->
-                <section class="category-section" id="email">
-                    <div class="category-header">
-                        <h2>📧 Email Marketing</h2>
-                        <p>Herramientas para crear, automatizar y optimizar tus campañas de email</p>
-                    </div>
-
-                    <div class="tools-grid">
-                        <div class="tool-card" data-category="freemium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">Mailchimp</div>
-                                    <div class="tool-description">La plataforma de email marketing más popular</div>
-                                </div>
-                                <div class="tool-price">Gratis - $350/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Principiantes en email marketing</li>
-                                    <li>E-commerce con WooCommerce/Shopify</li>
-                                    <li>Automatizaciones básicas</li>
-                                    <li>Templates profesionales</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>Pricing puede escalar muy rápido</li>
-                                    <li>Funciones avanzadas solo en planes altos</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Probar Mailchimp →</a>
-                        </div>
-
-                        <div class="tool-card" data-category="premium">
-                            <div class="tool-header">
-                                <div>
-                                    <div class="tool-name">ConvertKit</div>
-                                    <div class="tool-description">Email marketing para creadores de contenido</div>
-                                </div>
-                                <div class="tool-price">$29-208/mes</div>
-                            </div>
-                            <div class="tool-features">
-                                <h4>Mejor para:</h4>
-                                <ul>
-                                    <li>Bloggers y creadores de contenido</li>
-                                    <li>Automatizaciones sofisticadas</li>
-                                    <li>Segmentación avanzada de audiencia</li>
-                                    <li>Landing pages integradas</li>
-                                </ul>
-                            </div>
-                            <div class="tool-features cons">
-                                <h4>Limitaciones:</h4>
-                                <ul>
-                                    <li>No tiene plan gratuito</li>
-                                    <li>Templates limitados vs competencia</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="tool-link">Probar ConvertKit →</a>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Another In-content Ad -->
-                <div class="ad-in-content">
-                    Google Ads - In-Content #2 (728x90)
+                <!-- Banner In-Content 728x90 #2 -->
+                <div class="ad-container ad-728x90">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : '90b5973ef9c140f9617052846fc909ce',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
                 </div>
 
                 <!-- Analytics Section -->
@@ -1010,9 +145,18 @@
                     </div>
                 </section>
 
-                <!-- In-content Ad -->
-                <div class="ad-in-content">
-                    Google Ads - In-Content #3 (728x90)
+                <!-- Banner In-Content 728x90 #3 -->
+                <div class="ad-container ad-728x90">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : '90b5973ef9c140f9617052846fc909ce',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
                 </div>
 
                 <!-- Advertising Section -->
@@ -1223,12 +367,26 @@
                     <p>No necesitas usar todas estas herramientas. Identifica las 3-5 que realmente necesitas para tu negocio actual y domínalas antes de agregar más. La consistencia en el uso de pocas herramientas es mejor que usar muchas de forma superficial.</p>
                 </div>
 
-            </div>
+            </main>
 
             <!-- Sidebar -->
-            <div class="sidebar">
+            <aside class="sidebar">
+                <!-- Banner 300x250 Principal -->
+                <div class="ad-container ad-300x250">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'ddfa570981a807a586aad0fdad6ef358',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/ddfa570981a807a586aad0fdad6ef358/invoke.js"></script>
+                </div>
+
                 <!-- Table of Contents -->
-                <div class="toc">
+                <div class="sidebar-widget toc">
                     <h3>📋 Índice de Contenido</h3>
                     <ul>
                         <li><a href="#seo">🔍 SEO y Contenido</a></li>
@@ -1242,17 +400,88 @@
                     </ul>
                 </div>
 
-                <!-- Sticky Ad -->
-                <div class="ad-sidebar-sticky">
-                    Google Ads - Sidebar Sticky (300x600)
+                <!-- Native Banner -->
+                <div class="ad-container ad-native">
+                    <script async="async" data-cfasync="false" src="//pl27003184.profitableratecpm.com/f0125c2fb544ac1e5513f01740d23dfa/invoke.js"></script>
+                    <div id="container-f0125c2fb544ac1e5513f01740d23dfa"></div>
                 </div>
-            </div>
+
+                <!-- Banner Mobile 320x50 -->
+                <div class="ad-container ad-320x50">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'da733d852a2368d040d0c58f5c655b85',
+                        'format' : 'iframe',
+                        'height' : 50,
+                        'width' : 320,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/da733d852a2368d040d0c58f5c655b85/invoke.js"></script>
+                </div>
+
+                <!-- Popular Tools Widget -->
+                <div class="sidebar-widget">
+                    <h3>🔥 Herramientas Más Populares</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#ahrefs" style="text-decoration: none; color: #333;">1. Ahrefs</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#canva" style="text-decoration: none; color: #333;">2. Canva</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#mailchimp" style="text-decoration: none; color: #333;">3. Mailchimp</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#hootsuite" style="text-decoration: none; color: #333;">4. Hootsuite</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#hubspot" style="text-decoration: none; color: #333;">5. HubSpot</a></li>
+                    </ul>
+                </div>
+
+                <!-- Banner 300x250 Secundario -->
+                <div class="ad-container ad-300x250">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'ddfa570981a807a586aad0fdad6ef358',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/ddfa570981a807a586aad0fdad6ef358/invoke.js"></script>
+                </div>
+
+                <!-- Quick Tips Widget -->
+                <div class="sidebar-widget">
+                    <h3>💡 Tips Rápidos</h3>
+                    <ul style="list-style: none; font-size: 0.9rem;">
+                        <li style="margin-bottom: 0.8rem; padding: 0.5rem; background: #f8f9fa; border-radius: 5px;">Empieza con herramientas gratuitas antes de invertir en premium</li>
+                        <li style="margin-bottom: 0.8rem; padding: 0.5rem; background: #f8f9fa; border-radius: 5px;">Integra máximo 3-5 herramientas para evitar overwhelm</li>
+                        <li style="margin-bottom: 0.8rem; padding: 0.5rem; background: #f8f9fa; border-radius: 5px;">Mide ROI de cada herramienta mensualmente</li>
+                    </ul>
+                </div>
+
+                <!-- Native Banner Final -->
+                <div class="ad-container ad-native">
+                    <script async="async" data-cfasync="false" src="//pl27003184.profitableratecpm.com/f0125c2fb544ac1e5513f01740d23dfa/invoke.js"></script>
+                    <div id="container-f0125c2fb544ac1e5513f01740d23dfa-2"></div>
+                </div>
+            </aside>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
         <div class="container">
+            <!-- Banner Footer Principal 728x90 -->
+            <div class="ad-container ad-728x90">
+                <script type="text/javascript">
+                atOptions = {
+                    'key' : '90b5973ef9c140f9617052846fc909ce',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
+            </div>
+
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Herramientas Populares</h3>
@@ -1282,9 +511,44 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- Native Banner Footer -->
+            <div class="ad-container ad-native">
+                <script async="async" data-cfasync="false" src="//pl27003184.profitableratecpm.com/f0125c2fb544ac1e5513f01740d23dfa/invoke.js"></script>
+                <div id="container-f0125c2fb544ac1e5513f01740d23dfa-3"></div>
+            </div>
+
+            <!-- Banner Mobile Footer -->
+            <div class="ad-container ad-320x50">
+                <script type="text/javascript">
+                atOptions = {
+                    'key' : 'da733d852a2368d040d0c58f5c655b85',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/da733d852a2368d040d0c58f5c655b85/invoke.js"></script>
+            </div>
+
             <div style="border-top: 1px solid #555; padding-top: 2rem; margin-top: 2rem;">
                 <p>&copy; 2025 Las 100 Mejores Herramientas de Marketing Digital. Todos los derechos reservados.</p>
                 <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.8;">Última actualización: Junio 2025</p>
+            </div>
+
+            <!-- Banner Final Footer 728x90 -->
+            <div class="ad-container ad-728x90">
+                <script type="text/javascript">
+                atOptions = {
+                    'key' : '90b5973ef9c140f9617052846fc909ce',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
             </div>
         </div>
     </footer>
@@ -1385,7 +649,7 @@
                         form.querySelector('input').value = '';
                         
                         setTimeout(() => {
-                            button.innerHTML = 'Suscribirme Gratis';
+                            button.innerHTML = button.textContent.includes('PDF') ? 'Descargar PDF Gratis' : 'Suscribirme Gratis';
                             button.style.background = 'white';
                         }, 3000);
                     }, 2000);
@@ -1403,13 +667,14 @@
                 console.log(`Tool clicked: ${toolName}`);
                 
                 // Show a confirmation message
+                const originalText = link.innerHTML;
                 link.innerHTML = '✓ Redirigiendo...';
                 link.style.background = '#28a745';
                 
                 setTimeout(() => {
                     // In a real scenario, you would redirect to the actual tool
                     // window.open('actual-affiliate-link', '_blank');
-                    link.innerHTML = link.innerHTML.replace('✓ Redirigiendo...', 'Visitar Herramienta →');
+                    link.innerHTML = originalText;
                     link.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
                 }, 1500);
             });
@@ -1431,12 +696,985 @@
         }, observerOptions);
 
         // Observe all tool cards for animations
-        toolCards.forEach(card => {
+        toolCards.forEach((card, index) => {
             card.style.opacity = '0';
             card.style.transform = 'translateY(20px)';
-            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            card.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
             observer.observe(card);
+        });
+
+        // Show mobile ads on appropriate devices
+        function showResponsiveAds() {
+            const mobileAds = document.querySelectorAll('.ad-320x50');
+            if (window.innerWidth <= 768) {
+                mobileAds.forEach(ad => {
+                    ad.style.display = 'block';
+                });
+            }
+        }
+
+        // Initialize responsive ads
+        showResponsiveAds();
+        window.addEventListener('resize', showResponsiveAds);
+
+        // Form validation
+        document.querySelectorAll('input[type="email"]').forEach(input => {
+            input.addEventListener('blur', function() {
+                const email = this.value;
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                if (email && !emailRegex.test(email)) {
+                    this.style.borderColor = '#dc3545';
+                } else if (email) {
+                    this.style.borderColor = '#28a745';
+                }
+            });
+        });
+
+        // Popular tools tracking
+        document.querySelectorAll('.sidebar-widget a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const toolName = this.textContent;
+                console.log(`Popular tool clicked: ${toolName}`);
+                
+                // Scroll to the tool section
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Performance optimization
+        document.addEventListener('DOMContentLoaded', () => {
+            // Lazy load functionality if needed
+            const lazyElements = document.querySelectorAll('[data-src]');
+            if ('IntersectionObserver' in window && lazyElements.length) {
+                const lazyObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const element = entry.target;
+                            element.src = element.dataset.src;
+                            element.removeAttribute('data-src');
+                            lazyObserver.unobserve(element);
+                        }
+                    });
+                });
+
+                lazyElements.forEach(element => {
+                    lazyObserver.observe(element);
+                });
+            }
+
+            console.log('Marketing Tools página optimizada cargada correctamente! 🚀');
+        });
+
+        // Enhanced scroll behavior for sticky elements
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', function() {
+            const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            // Add parallax effect to header if visible
+            if (currentScrollTop < window.innerHeight) {
+                const header = document.querySelector('header');
+                if (header) {
+                    header.style.transform = `translateY(${currentScrollTop * 0.3}px)`;
+                }
+            }
+            
+            lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+        }, false);
+
+        // Add loading states for better UX
+        const addLoadingState = (button) => {
+            const originalText = button.innerHTML;
+            button.innerHTML = '<span class="loading"></span> Cargando...';
+            button.disabled = true;
+            
+            setTimeout(() => {
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }, 2000);
+        };
+
+        // Enhanced newsletter functionality
+        document.querySelectorAll('.newsletter-form button').forEach(button => {
+            button.addEventListener('click', function() {
+                const email = this.parentElement.querySelector('input[type="email"]').value;
+                if (email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                    addLoadingState(this);
+                }
+            });
         });
     </script>
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las 100 Mejores Herramientas de Marketing Digital 2025 | Guía Completa</title>
+    <meta name="description" content="Descubre las 100 herramientas de marketing digital más efectivas para 2025. Desde SEO hasta redes sociales, encuentra todo lo que necesitas para hacer crecer tu negocio.">
+    <meta name="keywords" content="herramientas marketing digital, software marketing, herramientas SEO, marketing automation, social media tools">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Ad Containers */
+        .ad-container {
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1.5rem auto;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .ad-728x90 { max-width: 728px; min-height: 90px; }
+        .ad-300x250 { max-width: 300px; min-height: 250px; }
+        .ad-320x50 { max-width: 320px; min-height: 50px; }
+        .ad-native { max-width: 100%; min-height: 120px; }
+
+        /* Navigation */
+        .nav-container {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .nav-categories {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-categories a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-categories a:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .search-box input {
+            padding: 0.5rem 1rem;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            width: 250px;
+            font-size: 14px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        /* Main Layout */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .content-area {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-widget {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .sidebar-widget h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .toc ul {
+            list-style: none;
+        }
+
+        .toc li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc a {
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9rem;
+            display: block;
+            padding: 0.3rem 0;
+            border-left: 3px solid transparent;
+            padding-left: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .toc a:hover {
+            color: #667eea;
+            border-left-color: #667eea;
+        }
+
+        /* Introduction */
+        .intro {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        /* Filter Buttons */
+        .filter-section {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Category Sections */
+        .category-section {
+            margin-bottom: 4rem;
+            scroll-margin-top: 120px;
+        }
+
+        .category-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .category-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-header p {
+            opacity: 0.9;
+        }
+
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #f0f0f0;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .tool-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .tool-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 0.3rem;
+        }
+
+        .tool-price {
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .tool-description {
+            color: #666;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .tool-features {
+            margin-bottom: 1rem;
+        }
+
+        .tool-features h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .tool-features ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .tool-features li {
+            padding: 0.2rem 0;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .tool-features li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .tool-features.cons li:before {
+            content: "✗ ";
+            color: #dc3545;
+        }
+
+        .tool-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 0.6rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+
+        .tool-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        /* Newsletter */
+        .newsletter {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .newsletter h3 {
+            margin-bottom: 1rem;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .newsletter-form input {
+            padding: 0.8rem;
+            border: none;
+            border-radius: 25px;
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .newsletter-form button {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-form button:hover {
+            background: #f8f9fa;
+            transform: translateY(-2px);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background: #5a6fd8;
+            transform: translateY(-3px);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: #667eea;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                order: -1;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .nav-categories {
+                display: none;
+            }
+            
+            .search-box input {
+                width: 200px;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .newsletter-form input {
+                max-width: 100%;
+            }
+
+            .ad-728x90 {
+                max-width: 100%;
+                padding: 0.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .content-area {
+                padding: 1rem;
+            }
+            
+            .search-box input {
+                width: 150px;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Las 100 Mejores Herramientas de Marketing Digital 2025</h1>
+            <p>La guía más completa y actualizada para emprendedores y marketers que buscan las mejores herramientas para hacer crecer su negocio</p>
+        </div>
+    </header>
+
+    <!-- Banner Header 728x90 -->
+    <div class="container">
+        <div class="ad-container ad-728x90">
+            <script type="text/javascript">
+            atOptions = {
+                'key' : '90b5973ef9c140f9617052846fc909ce',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+            };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-container">
+        <div class="container">
+            <nav>
+                <div class="nav-categories">
+                    <a href="#seo">SEO</a>
+                    <a href="#social">Social Media</a>
+                    <a href="#email">Email</a>
+                    <a href="#analytics">Analytics</a>
+                    <a href="#automation">Automation</a>
+                    <a href="#ads">Publicidad</a>
+                    <a href="#productivity">Productividad</a>
+                    <a href="#ecommerce">E-commerce</a>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar herramienta..." id="searchInput">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+        <div class="main-layout">
+            <!-- Main Content -->
+            <main class="content-area">
+                <!-- Introduction -->
+                <div class="intro">
+                    <h2>¿Por qué esta lista es diferente?</h2>
+                    <p>Hemos probado y analizado cientos de herramientas para traerte solo las que realmente funcionan. Cada herramienta está categorizada, con precios actualizados y casos de uso específicos para que encuentres exactamente lo que necesitas.</p>
+                </div>
+
+                <!-- Filter Section -->
+                <div class="filter-section">
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">Todas</button>
+                        <button class="filter-btn" data-filter="free">Gratis</button>
+                        <button class="filter-btn" data-filter="premium">Premium</button>
+                        <button class="filter-btn" data-filter="freemium">Freemium</button>
+                    </div>
+                </div>
+
+                <!-- SEO & Content Section -->
+                <section class="category-section" id="seo">
+                    <div class="category-header">
+                        <h2>🔍 SEO y Creación de Contenido</h2>
+                        <p>Herramientas esenciales para posicionar tu contenido y aparecer en los primeros resultados de Google</p>
+                    </div>
+
+                    <div class="tools-grid">
+                        <div class="tool-card" data-category="freemium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Ahrefs</div>
+                                    <div class="tool-description">La suite de SEO más completa del mercado</div>
+                                </div>
+                                <div class="tool-price">$99-999/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Análisis de competencia avanzado</li>
+                                    <li>Research de keywords profesional</li>
+                                    <li>Auditorías técnicas de SEO</li>
+                                    <li>Monitoreo de backlinks</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Precio elevado para principiantes</li>
+                                    <li>Curva de aprendizaje pronunciada</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Probar Ahrefs →</a>
+                        </div>
+
+                        <div class="tool-card" data-category="free">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Google Search Console</div>
+                                    <div class="tool-description">Herramienta oficial de Google para webmasters</div>
+                                </div>
+                                <div class="tool-price">Gratis</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Monitorear indexación de páginas</li>
+                                    <li>Detectar errores técnicos</li>
+                                    <li>Ver keywords que generan tráfico</li>
+                                    <li>Analizar Core Web Vitals</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Datos limitados a 16 meses</li>
+                                    <li>No muestra volumen de búsquedas</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Usar Gratis →</a>
+                        </div>
+
+                        <div class="tool-card" data-category="premium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Jasper AI</div>
+                                    <div class="tool-description">IA para creación de contenido optimizado</div>
+                                </div>
+                                <div class="tool-price">$49-125/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Escribir artículos de blog largos</li>
+                                    <li>Crear copy para ads y emails</li>
+                                    <li>Generar ideas de contenido</li>
+                                    <li>Optimizar textos para SEO</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Requiere edición humana</li>
+                                    <li>Limitado por créditos mensuales</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Probar Jasper →</a>
+                        </div>
+
+                        <div class="tool-card" data-category="freemium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Canva</div>
+                                    <div class="tool-description">Diseño visual para contenido de marketing</div>
+                                </div>
+                                <div class="tool-price">Gratis - $15/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Crear gráficos para redes sociales</li>
+                                    <li>Diseñar thumbnails para YouTube</li>
+                                    <li>Hacer infografías llamativas</li>
+                                    <li>Presentaciones profesionales</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Plantillas limitadas en versión gratuita</li>
+                                    <li>Marca de agua en algunos elementos</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Empezar Gratis →</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Banner In-Content 728x90 -->
+                <div class="ad-container ad-728x90">
+                    <script type="text/javascript">
+                    atOptions = {
+                        'key' : '90b5973ef9c140f9617052846fc909ce',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                    };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/90b5973ef9c140f9617052846fc909ce/invoke.js"></script>
+                </div>
+
+                <!-- Social Media Section -->
+                <section class="category-section" id="social">
+                    <div class="category-header">
+                        <h2>📱 Gestión de Redes Sociales</h2>
+                        <p>Automatiza, programa y analiza tu presencia en redes sociales</p>
+                    </div>
+
+                    <div class="tools-grid">
+                        <div class="tool-card" data-category="freemium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Hootsuite</div>
+                                    <div class="tool-description">Plataforma todo-en-uno para redes sociales</div>
+                                </div>
+                                <div class="tool-price">$49-739/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Programar posts en múltiples redes</li>
+                                    <li>Gestionar equipos de social media</li>
+                                    <li>Monitorear menciones de marca</li>
+                                    <li>Reportes detallados de rendimiento</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Interfaz puede ser abrumadora</li>
+                                    <li>Precio elevado para equipos grandes</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Probar Hootsuite →</a>
+                        </div>
+
+                        <div class="tool-card" data-category="freemium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Buffer</div>
+                                    <div class="tool-description">Programación simple y efectiva</div>
+                                </div>
+                                <div class="tool-price">Gratis - $99/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Interfaz limpia y fácil de usar</li>
+                                    <li>Analytics claros y accionables</li>
+                                    <li>Programación masiva de contenido</li>
+                                    <li>Integración con herramientas populares</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Funciones limitadas en plan gratuito</li>
+                                    <li>No incluye monitoreo de menciones</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Empezar con Buffer →</a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Newsletter Signup -->
+                <div class="newsletter">
+                    <h3>🚀 ¿Quieres recibir nuevas herramientas cada semana?</h3>
+                    <p>Únete a más de 10,000 marketers que reciben nuestra newsletter con las últimas herramientas y estrategias</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Tu mejor email...">
+                        <button type="submit">Suscribirme Gratis</button>
+                    </div>
+                </div>
+
+                <!-- Email Marketing Section -->
+                <section class="category-section" id="email">
+                    <div class="category-header">
+                        <h2>📧 Email Marketing</h2>
+                        <p>Herramientas para crear, automatizar y optimizar tus campañas de email</p>
+                    </div>
+
+                    <div class="tools-grid">
+                        <div class="tool-card" data-category="freemium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">Mailchimp</div>
+                                    <div class="tool-description">La plataforma de email marketing más popular</div>
+                                </div>
+                                <div class="tool-price">Gratis - $350/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Principiantes en email marketing</li>
+                                    <li>E-commerce con WooCommerce/Shopify</li>
+                                    <li>Automatizaciones básicas</li>
+                                    <li>Templates profesionales</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>Pricing puede escalar muy rápido</li>
+                                    <li>Funciones avanzadas solo en planes altos</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="tool-link">Probar Mailchimp →</a>
+                        </div>
+
+                        <div class="tool-card" data-category="premium">
+                            <div class="tool-header">
+                                <div>
+                                    <div class="tool-name">ConvertKit</div>
+                                    <div class="tool-description">Email marketing para creadores de contenido</div>
+                                </div>
+                                <div class="tool-price">$29-208/mes</div>
+                            </div>
+                            <div class="tool-features">
+                                <h4>Mejor para:</h4>
+                                <ul>
+                                    <li>Bloggers y creadores de contenido</li>
+                                    <li>Automatizaciones sofisticadas</li>
+                                    <li>Segmentación avanzada de audiencia</li>
+                                    <li>Landing pages integradas</li>
+                                </ul>
+                            </div>
+                            <div class="tool-features cons">
+                                <h4>Limitaciones:</h4>
+                                <ul>
+                                    <li>No tiene plan gratuito</li>
+                                    <li>Templates limitados vs competencia</li>
+                                </ul>
+                            </div>
